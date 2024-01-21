@@ -1,0 +1,165 @@
+﻿body {
+    background-color:black;
+
+}
+div {
+    display:flex;
+    justify-content:center;
+}
+#drzava{
+    margin-top:18%;
+    display:flex;
+    justify-content:center;
+}
+h1 {
+    font-family:'Roboto', sans-serif;
+    font-size:200%;
+    font-weight:900;
+}
+.vidoo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity:60%;
+    
+}
+#dvojika {
+
+    margin-top: 2%;
+    background-color: forestgreen;
+    width: 8%;
+    border-radius:30px;
+    margin-left:46%;
+}
+#Button1 {
+    font-size: 400%;
+    background-color: forestgreen;
+    opacity: 70%;
+    border-radius: 10%;
+    width: 15%;
+    height: 80px;
+    
+}
+i{
+    padding:25%;
+    font-size:300%;
+    color:white;
+    text-align:center;
+}
+
+#odgovor {
+    display: flex;
+    
+}
+.odgovor1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    background-color: white;
+    opacity: 70%;
+    font-size: 40px;
+    padding: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    text-align: center;
+}
+
+
+.blok {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+
+}
+
+
+
+
+
+
+@media(min-aspect-ratio:16/9) {
+    .vidoo{
+        width:100%;
+        height:auto;
+    }
+}
+
+@media(max-aspect-ratio:16/9) {
+    .vidoo {
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:600px) {
+
+
+    i {
+        padding: 20%;
+        font-size: 170%;
+        color: white;
+        text-align: center;
+    }
+
+
+
+    .odgovor1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+        background-color: white;
+        opacity: 70%;
+        font-size: 20px;
+        text-align:center;
+        padding: 1%;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+    }
+
+
+
+    .vidoo {
+        
+        position: absolute;
+        left:-150%;
+        bottom: 0;
+        z-index: -1;
+        opacity: 60%;
+    }
+
+
+    h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 100%;
+        font-weight: 900;
+        text-align:center;
+        color:white;
+        margin-bottom:80%;
+    }
+
+    #dvojika {
+        margin-top: 10%;
+        background-color: forestgreen;
+        width: 8%;
+        border-radius: 30px;
+        margin-left: 46%;
+    }
+
+    .odgovor1{
+        margin-top:10%;
+
+    }
+
+    #dvojika {
+        margin-top: 2%;
+        background-color: forestgreen;
+        width: 15%;
+        border-radius: 10px;
+        margin-left: 46%;
+    }
+
+
+}
